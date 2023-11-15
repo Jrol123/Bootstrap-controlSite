@@ -20,6 +20,10 @@ p{
 	padding: 0 3px;
 }
 
+.carousel-item{
+	height: 500px;
+}
+
 .paragraph{
 	margin-top: 5em;
 }

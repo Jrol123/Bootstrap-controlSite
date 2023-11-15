@@ -43,6 +43,10 @@ section{
 	font-size: 1.5em;
 }
 
+.breadcrumb{
+	margin-left: 3px;
+}
+
 .accordion-button:not(.collapsed){
 	background: dodgerblue;
 }

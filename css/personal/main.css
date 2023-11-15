@@ -47,6 +47,10 @@ section{
 	margin: 5px 0;
 }
 
+.big-card{
+	max-height: 500px;
+}
+
 #crumb{
 	font-size: 1.5em;
 }
@@ -65,8 +69,4 @@ section{
 
 .accordion-button:not(.collapsed) h4{
 	color: white
-}
-
-#colFour{
-	max-height: 500px;
 }

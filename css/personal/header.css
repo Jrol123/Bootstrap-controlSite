@@ -1,0 +1,51 @@
+#above-header{
+	text-align: end;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-direction: row;
+	margin: 5px 10px;
+}
+
+#img_logo{
+	--size-t: 140px;
+	width: calc(var(--size-t) + 10px);
+	height: var(--size-t);
+}
+
+#above-header h1{
+	font-size: 5em;
+	width: auto;
+}
+
+#above-header button{
+	font-size: 1.2em;
+	width: auto;
+}
+
+#nav-bar{
+	display: flex;
+	background: royalblue;
+	justify-content: space-around;
+	position: sticky;
+	z-index: 1;
+	top: 0;
+	min-height: 40px;
+	align-items: center;
+}
+
+ul{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+li{
+	display: list-item;
+}
+
+.link-light{
+	offset: none;
+	text-decoration: none;
+	font-size: 1.4em;
+}

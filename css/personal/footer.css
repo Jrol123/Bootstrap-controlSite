@@ -3,5 +3,5 @@ footer{
 	background: royalblue;
 	justify-content: space-around;
 	align-items: center;
-	min-height: 50px;
+	min-height: clamp(0.2rem,4vw + 0.4rem,0.6rem);
 }

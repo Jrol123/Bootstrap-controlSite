@@ -8,18 +8,18 @@
 }
 
 #img_logo{
-	--size-t: clamp(3rem, 6vw + 1.35rem,10rem);
+	--size-t: clamp(3rem, 5vw + 1.3rem,10rem);
 	width: calc(var(--size-t) + 1rem);
 	height: var(--size-t);
 }
 
 #above-header h1{
-	font-size: clamp(1rem, 2vw + 1rem,5rem);
+	font-size: clamp(1rem, 2vw + 0.9rem,6rem);
 	width: auto;
 }
 
 #above-header button{
-	font-size: clamp(0.4rem, 2vw + 0.25rem ,1.2rem);
+	font-size: clamp(0.3rem, 1vw + 0.25rem ,1.2rem);
 	width: auto;
 }
 

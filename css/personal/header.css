@@ -8,7 +8,7 @@
 }
 
 #img_logo{
-	--size-t: clamp(3.5rem, 6vw + 1.4rem,10rem);
+	--size-t: clamp(3rem, 6vw + 1.35rem,10rem);
 	width: calc(var(--size-t) + 1rem);
 	height: var(--size-t);
 }

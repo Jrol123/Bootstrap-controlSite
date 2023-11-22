@@ -8,13 +8,13 @@
 }
 
 #img_logo{
-	--size-t: clamp(4rem, 6vw + 1.4rem,10rem);
+	--size-t: clamp(3.5rem, 6vw + 1.4rem,10rem);
 	width: calc(var(--size-t) + 1rem);
 	height: var(--size-t);
 }
 
 #above-header h1{
-	font-size: clamp(3rem, 6vw + 1.4rem,5rem);
+	font-size: clamp(1rem, 2vw + 1rem,5rem);
 	width: auto;
 }
 
@@ -30,7 +30,7 @@
 	position: sticky;
 	z-index: 1;
 	top: 0;
-	min-height: clamp(0.2rem,2vw + 0.3rem,0.6rem);
+	min-height: clamp(0.5rem,4vw + 0.4rem,1rem);
 	align-items: center;
 }
 
@@ -47,5 +47,5 @@ li{
 .link-light{
 	offset: none;
 	text-decoration: none;
-	font-size: clamp(0.5rem, 2vw + 0.3rem, 1.5rem);
+	font-size: clamp(0.5rem, 2vw + 0.4rem, 1.5rem);
 }
